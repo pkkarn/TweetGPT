@@ -2,7 +2,7 @@
 
 Write tweets using an AI. Just add your `openai` key in settings and you're ready to go.
 
-<img src="./src/assets/screenshot1.png" width="40%" /> <img src="./src/assets/screenshot2.png" width="60%" />
+<img src="./src/assets/screenshot1.png" width="36%" /> <img src="./src/assets/screenshot2.png" width="57%" />
 
 
 
