@@ -1,0 +1,39 @@
+{
+  "name": "tweet_gpt",
+  "version": "1.0.0",
+  "description": "Write Tweets using TwitterGPT",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env MODE=development webpack --watch --progress --config webpack.config.js",
+    "build": "cross-env MODE=production webpack --config webpack.config.js --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ant-design/icons": "^5.2.5",
+    "@types/chrome": "^0.0.243",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "react": "^18.2.0",
+    "sass": "^1.64.2",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@types/antd": "^1.0.0",
+    "antd": "^5.13.2",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "react-dom": "^18.2.0"
+  }
+}
