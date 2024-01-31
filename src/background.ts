@@ -1,6 +1,6 @@
 console.log("It's coming from background")
 chrome.runtime.onInstalled.addListener(() => {
     chrome.storage.local.set({
-        apiKey: 'sample-xxx'
+        apiKey: 'sk-xxx'
     })
 })
